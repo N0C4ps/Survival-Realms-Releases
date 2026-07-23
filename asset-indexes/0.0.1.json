@@ -1,0 +1,17 @@
+{
+  "format": 1,
+  "version": "0.0.1",
+  "display_name": "1One",
+  "assets": [
+    { "path": "texture/Grass_Block.png" },
+    { "path": "texture/Dirt_Block.png" },
+    { "path": "texture/Stone_Block.png" },
+    { "path": "texture/Cobblestone_Block.png" },
+    { "path": "texture/Wood_Block.png" },
+    { "path": "particle/Grass_Particle.png" },
+    { "path": "particle/Dirt_Particle.png" },
+    { "path": "particle/Stone_Particle.png" },
+    { "path": "particle/Cobblestone_Particle.png" },
+    { "path": "particle/Wood_Particle.png" }
+  ]
+}
