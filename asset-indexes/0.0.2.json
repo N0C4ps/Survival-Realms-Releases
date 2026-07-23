@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "version": "0.0.2",
+  "display_name": "Survival Realms 0.0.2",
+  "assets": [
+    {
+      "path": "particle/Cobblestone_Particle.png"
+    },
+    {
+      "path": "particle/Dirt_Particle.png"
+    },
+    {
+      "path": "particle/Grass_Particle.png"
+    },
+    {
+      "path": "particle/Stone_Particle.png"
+    },
+    {
+      "path": "particle/Wood_Particle.png"
+    },
+    {
+      "path": "texture/Cobblestone_Block.png"
+    },
+    {
+      "path": "texture/Dirt_Block.png"
+    },
+    {
+      "path": "texture/Grass_Block.png"
+    },
+    {
+      "path": "texture/Lava.png"
+    },
+    {
+      "path": "texture/Stone_Block.png"
+    },
+    {
+      "path": "texture/Water.png"
+    },
+    {
+      "path": "texture/Wood_Block.png"
+    }
+  ]
+}

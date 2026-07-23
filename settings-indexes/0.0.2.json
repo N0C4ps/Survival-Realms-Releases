@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "game_version": "0.0.2",
+  "required_settings": {
+    "fov": {
+      "type": "integer",
+      "default": 100
+    },
+    "mouse_sensitivity": {
+      "type": "integer",
+      "default": 60
+    },
+    "render_distance": {
+      "type": "integer",
+      "default": 8
+    },
+    "brightness": {
+      "type": "integer",
+      "default": 75
+    }
+  }
+}
