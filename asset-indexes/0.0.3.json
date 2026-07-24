@@ -1,70 +1,95 @@
 {
-  "format": 1,
-  "version": "0.0.3",
-  "display_name": "Survival Realms 3Three",
-  "assets": [
-    {
-      "path": "particle/Cobblestone_Particle.png"
-    },
-    {
-      "path": "particle/Dirt_Particle.png"
-    },
-    {
-      "path": "particle/Grass_Particle.png"
-    },
-    {
-      "path": "particle/Stone_Particle.png"
-    },
-    {
-      "path": "particle/Wood_Particle.png"
-    },
-    {
-      "path": "texture/Clay_Block.png"
-    },
-    {
-      "path": "texture/Cobblestone_Block.png"
-    },
-    {
-      "path": "texture/Dirt_Block.png"
-    },
-    {
-      "path": "texture/Grass_Block.png"
-    },
-    {
-      "path": "texture/Grass_Block_Side.png"
-    },
-    {
-      "path": "texture/Gravel_Block.png"
-    },
-    {
-      "path": "texture/Lava.png"
-    },
-    {
-      "path": "texture/Leave_Block.png"
-    },
-    {
-      "path": "texture/Plains_Block.png"
-    },
-    {
-      "path": "texture/Sand_Block.png"
-    },
-    {
-      "path": "texture/Stone_Block.png"
-    },
-    {
-      "path": "texture/Water.png"
-    },
-    {
-      "path": "texture/Wood_Log.png"
-    },
-    {
-      "path": "texture/Wood_Log_Top.png"
-    },
-    {
-      "path": "ui/Hotbar_Slot.png"
-    },
-    {
-      "path": "ui/Hotbar_Slot_Equiped.png"
+  "index": {
+    "schema_version": 2,
+    "id": "assets-0.0.3",
+    "algorithm": "sha256",
+    "objects": {
+      "particle/Cobblestone_Particle.png": {
+        "hash": "fd57557a05b462fbde3428b848fcad34879a4f7e8c2f88c8be4082432c40cab4",
+        "size": 276
+      },
+      "particle/Dirt_Particle.png": {
+        "hash": "bf6e886e23e4e7903de127af8cb20fa112e253287388d5e07520c36cc6d3c1bc",
+        "size": 282
+      },
+      "particle/Grass_Particle.png": {
+        "hash": "6451b8f41bf0a132bc3fadb4c09a4b6a0fff8a01333c121b46e0602f1ed7daec",
+        "size": 276
+      },
+      "particle/Stone_Particle.png": {
+        "hash": "b0034caf8091976b9e2d1e231e4b49bd76ddb9196a4f8b407176f52510cb613a",
+        "size": 231
+      },
+      "particle/Wood_Particle.png": {
+        "hash": "ec8161f8343ba4b1001e4460946f761a432eaa2d683c4d0a576ff5fbed68304e",
+        "size": 195
+      },
+      "texture/Clay_Block.png": {
+        "hash": "5055625daffba2c450548ed981008fbee47427bae5e5274503b8c4e1fe2e1372",
+        "size": 537
+      },
+      "texture/Cobblestone_Block.png": {
+        "hash": "42e8b19a4271ad8245718a3f0faccd30adb4c38784de94431b2863c077a4aeca",
+        "size": 693
+      },
+      "texture/Dirt_Block.png": {
+        "hash": "182610bc1de5f177a9327ebbcf49376919a72ab164fc71c7a3431180195e0838",
+        "size": 684
+      },
+      "texture/Grass_Block.png": {
+        "hash": "15c9574ab53a39392c237f5e458b73e43b34f9d2a5d3f23f3cfb891c3af26949",
+        "size": 717
+      },
+      "texture/Grass_Block_Side.png": {
+        "hash": "61f98a309ea88cbda7efcffe0415c6d38095795d938fdb5f9c50a323f97bb32a",
+        "size": 717
+      },
+      "texture/Gravel_Block.png": {
+        "hash": "673f78dfd53c7cedfbd7522cb74a0a493aeb4b53c385da97b77da2e532395c69",
+        "size": 561
+      },
+      "texture/Lava.png": {
+        "hash": "444863a67440b68be5c173346149bf472c44d19ef3e9bac1d309a0bdfc0f70e4",
+        "size": 327
+      },
+      "texture/Leave_Block.png": {
+        "hash": "40f7ee7abe3c25331da9a5914a96602e3e3a3ebb323ded1d28f995df23a140d5",
+        "size": 555
+      },
+      "texture/Plains_Block.png": {
+        "hash": "d2994a3cea8cd1d1dbc9069646819b7269db3c3b2b424ece2d4317aa7b90dd13",
+        "size": 567
+      },
+      "texture/Sand_Block.png": {
+        "hash": "39cd4558381cfc0977b489d8057d173de708e8bd28afbe4d6577b4c5d9ed3986",
+        "size": 444
+      },
+      "texture/Stone_Block.png": {
+        "hash": "dc3c9dd5f34f734d7b7428628548e1a6671738a80e295eda65c79a028837ff30",
+        "size": 582
+      },
+      "texture/Water.png": {
+        "hash": "1a32165e7aaa6f4d52a51a4924f9cd9bce0190379c1a5cd3d22681bb8a5ce74c",
+        "size": 525
+      },
+      "texture/Wood_Log.png": {
+        "hash": "cf5e839fa5aa3c61af6cd98385118fcbe47f742783e01baaa05938d94461fc37",
+        "size": 669
+      },
+      "texture/Wood_Log_Top.png": {
+        "hash": "73f122776eeb5211a8a85e40ed8870c7a0a477dcc65107b8cda1ef7ab6458349",
+        "size": 678
+      },
+      "ui/Hotbar_Slot.png": {
+        "hash": "a721d911bb743764c08fce299cf0222d5d6e70fbeba1b5e55c6c3a607ad44bde",
+        "size": 549
+      },
+      "ui/Hotbar_Slot_Equiped.png": {
+        "hash": "345e62ead203e14e6c59dd6797e69705a736d8204b230bb112dbf5053200ebc3",
+        "size": 525
+      }
     }
-  ]
+  },
+  "signer_key_id": "4d7df931d91770ad4a85fe972c5b68ba",
+  "signature": "e9ee7c97a797e73ea64f388a775e663dcffcdd52d69fbfc5c1d83e92faf049bc9f4b56f298a68b59c2383850410ad1b4d4c3e4e2e07b119d094b7ced51565d00"
 }

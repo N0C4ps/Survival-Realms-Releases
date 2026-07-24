@@ -2,6 +2,10 @@
   "schema_version": 1,
   "game_version": "0.0.3",
   "required_settings": {
+    "brightness": {
+      "type": "integer",
+      "default": 75
+    },
     "fov": {
       "type": "integer",
       "default": 100
@@ -13,10 +17,6 @@
     "render_distance": {
       "type": "integer",
       "default": 8
-    },
-    "brightness": {
-      "type": "integer",
-      "default": 75
     }
   }
 }
