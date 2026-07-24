@@ -1,0 +1,12 @@
+/target
+/saves/*.tmp
+/saves/*.bak
+/saves/*.corrupt-*
+/saves/*.level
+/docs/*.md
+/versions/
+*.sgkey
+/launcher/node_modules
+/launcher/dist
+/launcher/dev-install/
+/.local-secrets/

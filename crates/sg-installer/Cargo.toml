@@ -1,0 +1,20 @@
+[package]
+name = "survival-realms-installer"
+version = "0.0.2"
+edition = "2024"
+build = "build.rs"
+
+[[bin]]
+name = "SurvivalRealmsInstaller"
+path = "src/main.rs"
+
+[dependencies]
+directories = "6"
+windows-sys = { version = "0.61", features = [
+    "Win32_Foundation",
+    "Win32_UI_Shell",
+    "Win32_UI_WindowsAndMessaging",
+] }
+
+[dev-dependencies]
+tempfile = "3"

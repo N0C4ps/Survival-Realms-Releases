@@ -1,0 +1,119 @@
+:root {
+  font-family: "Segoe UI Variable", "Segoe UI", sans-serif;
+  color: #f2f2f2;
+  background: #0d0d0d;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 760px; min-height: 100vh; background: #0d0d0d; }
+button, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  background: #0d0d0d;
+}
+
+.sidebar {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 22px 12px;
+  border-right: 1px solid #262626;
+  background: #111;
+}
+
+.brand { display: flex; align-items: center; gap: 11px; padding: 0 8px 28px; }
+.brand__mark {
+  width: 36px; height: 36px; display: grid; grid-template-columns: repeat(2, auto);
+  place-content: center; gap: 1px; border: 1px solid #3a3a3a; border-radius: 7px;
+  color: #fff; background: #191919; font-size: 11px; font-weight: 700;
+}
+.brand strong, .brand small { display: block; }
+.brand strong { font-size: 13px; white-space: nowrap; }
+.brand small { margin-top: 2px; color: #737373; font-size: 10px; }
+
+.sidebar nav { display: grid; gap: 3px; }
+.nav-item {
+  width: 100%; padding: 10px 12px; border: 0; border-radius: 6px;
+  color: #909090; background: transparent; text-align: left; font-size: 12px;
+}
+.nav-item:hover { color: #e7e7e7; background: #1a1a1a; }
+.nav-item--active { color: #fff; background: #222; }
+.sidebar__footer {
+  margin-top: auto; padding: 10px 12px; display: flex; align-items: center; gap: 8px;
+  color: #707070; font-size: 10px;
+}
+.status-dot { width: 6px; height: 6px; flex: 0 0 auto; border-radius: 50%; background: #aaa; }
+
+main { width: min(980px, 100%); margin: 0 auto; padding: 34px clamp(28px, 5vw, 56px); }
+.topbar { display: flex; align-items: end; justify-content: space-between; margin-bottom: 24px; }
+.eyebrow { color: #747474; font-size: 10px; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; }
+h1 { margin: 5px 0 0; font-size: 26px; font-weight: 600; }
+h2 { margin: 6px 0; font-size: 18px; font-weight: 600; }
+
+.secondary-button, .primary-button, .download-button {
+  border: 1px solid #363636; border-radius: 6px; background: #191919;
+  transition: background .12s ease, border-color .12s ease;
+}
+.secondary-button { padding: 8px 12px; color: #aaa; font-size: 11px; }
+.secondary-button:hover:not(:disabled), .download-button:hover:not(:disabled) { background: #252525; border-color: #4a4a4a; }
+.primary-button { height: 42px; min-width: 120px; color: #111; background: #f2f2f2; border-color: #f2f2f2; font-size: 12px; font-weight: 600; }
+.primary-button:hover:not(:disabled) { background: #d8d8d8; }
+button:disabled { opacity: .45; cursor: default; }
+
+.play-panel, .library-panel, .settings-panel {
+  border: 1px solid #282828; border-radius: 9px; background: #141414;
+}
+.play-panel { padding: 26px; }
+.play-panel p { margin: 0; color: #888; font-size: 12px; }
+.play-controls { display: flex; align-items: end; gap: 10px; margin-top: 24px; }
+.version-picker { flex: 1; display: grid; gap: 6px; }
+.version-picker > span { color: #777; font-size: 10px; }
+.version-picker select {
+  width: 100%; height: 42px; padding: 0 12px; outline: none;
+  border: 1px solid #333; border-radius: 6px; background: #0f0f0f;
+}
+.version-picker select:focus { border-color: #666; }
+.launch-status { min-height: 17px; margin-top: 14px; display: flex; align-items: center; gap: 8px; color: #777; font-size: 10px; }
+.launch-status--error { color: #d18484; }
+.launch-status--error .status-dot { background: #d18484; }
+
+.library-panel { margin-top: 16px; overflow: hidden; }
+.library-panel > header { padding: 16px 18px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #282828; }
+.library-panel h2 { margin: 3px 0 0; font-size: 14px; }
+.count-badge, .value-badge { min-width: 28px; padding: 4px 8px; border-radius: 5px; color: #aaa; background: #222; font-size: 10px; text-align: center; }
+.version-list { padding: 4px 10px; }
+.version-row { padding: 11px 8px; display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; align-items: center; gap: 11px; border-bottom: 1px solid #222; }
+.version-row:last-child { border-bottom: 0; }
+.version-row__icon { width: 32px; height: 32px; display: grid; place-items: center; border: 1px solid #333; border-radius: 6px; color: #bbb; background: #1b1b1b; font-size: 9px; font-weight: 700; }
+.version-row strong, .version-row span { display: block; }
+.version-row strong { font-size: 12px; }
+.version-row div > span { margin-top: 3px; color: #777; font-size: 9px; }
+.channel { padding: 4px 7px; border-radius: 4px; color: #999; background: #222; font-size: 9px; text-transform: uppercase; }
+.download-button { min-width: 76px; padding: 7px 10px; color: #ddd; font-size: 10px; }
+.download-progress { width: min(240px, 100%); height: 3px; margin-top: 7px; overflow: hidden; border-radius: 2px; background: #292929; }
+.download-progress i { display: block; height: 100%; background: #ddd; }
+.empty-state { padding: 24px 10px; color: #777; font-size: 11px; text-align: center; }
+.rejected { margin: 0 14px 14px; padding: 10px; border: 1px solid #432d2d; border-radius: 6px; color: #c88; background: #1d1515; font-size: 10px; }
+
+.settings-panel { overflow: hidden; }
+.path-row, .setting-row { min-height: 64px; padding: 15px 18px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid #282828; }
+.path-row:last-child, .setting-row:last-child { border-bottom: 0; }
+.path-row > span { color: #888; font-size: 11px; }
+.path-row code { min-width: 0; overflow: hidden; color: #ccc; font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.setting-row strong, .setting-row span { display: block; }
+.setting-row strong { font-size: 12px; }
+.setting-row div > span { margin-top: 4px; color: #777; font-size: 10px; }
+
+@media (max-width: 880px) {
+  .app-shell { grid-template-columns: 150px minmax(0, 1fr); }
+  main { padding-inline: 24px; }
+  .brand > div:last-child { display: none; }
+}

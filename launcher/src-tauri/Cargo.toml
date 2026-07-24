@@ -1,0 +1,27 @@
+[package]
+name = "survival-realms-launcher"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[lib]
+name = "survival_realms_launcher_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+hex = "0.4"
+
+[dependencies]
+hex = "0.4"
+semver = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sg-format = { path = "../../crates/sg-format" }
+sg-launcher-core = { path = "../../crates/sg-launcher-core" }
+sha2 = "0.10"
+tauri = { version = "2", features = [] }
+url = "2"
+
+[dev-dependencies]
+tempfile = "3"
