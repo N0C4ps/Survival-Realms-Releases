@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "version": "0.0.3",
+  "display_name": "Survival Realms 3Three",
+  "assets": [
+    {
+      "path": "particle/Cobblestone_Particle.png"
+    },
+    {
+      "path": "particle/Dirt_Particle.png"
+    },
+    {
+      "path": "particle/Grass_Particle.png"
+    },
+    {
+      "path": "particle/Stone_Particle.png"
+    },
+    {
+      "path": "particle/Wood_Particle.png"
+    },
+    {
+      "path": "texture/Clay_Block.png"
+    },
+    {
+      "path": "texture/Cobblestone_Block.png"
+    },
+    {
+      "path": "texture/Dirt_Block.png"
+    },
+    {
+      "path": "texture/Grass_Block.png"
+    },
+    {
+      "path": "texture/Grass_Block_Side.png"
+    },
+    {
+      "path": "texture/Gravel_Block.png"
+    },
+    {
+      "path": "texture/Lava.png"
+    },
+    {
+      "path": "texture/Leave_Block.png"
+    },
+    {
+      "path": "texture/Plains_Block.png"
+    },
+    {
+      "path": "texture/Sand_Block.png"
+    },
+    {
+      "path": "texture/Stone_Block.png"
+    },
+    {
+      "path": "texture/Water.png"
+    },
+    {
+      "path": "texture/Wood_Log.png"
+    },
+    {
+      "path": "texture/Wood_Log_Top.png"
+    },
+    {
+      "path": "ui/Hotbar_Slot.png"
+    },
+    {
+      "path": "ui/Hotbar_Slot_Equiped.png"
+    }
+  ]
+}
